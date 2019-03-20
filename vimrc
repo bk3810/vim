@@ -1,13 +1,13 @@
-set mouse=a
-set autoindent
-set cindent
-set ruler "show current cursor position
-set hlsearch
-set incsearch "한글자 입력할때마다 매치되는 부분 표시하기
+set mouse=a	" use mouse, It can move cursor point to clicked point
+set autoindent  " 들여쓰기
+set cindent     " c-type indentation
+set ruler       " show current cursor position
+set hlsearch    " highlight search
+set incsearch   " 한글자 입력할때마다 매치되는 부분 표시하기
 
-set showmatch "일치하는 괄호 하이라이팅
+set showmatch   "일치하는 괄호 하이라이팅
 
-set number "show line number
+set number      "show line number
 
 set ts=4
 set shiftwidth=4
